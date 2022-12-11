@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 24px 48px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p a {
+    font-size: 20px;    
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 15%);
+    height: auto;
+    width: 100%;
+}
+
+button {
+    padding: 4px 8px;
+}
+
+.buttonarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.footer {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 150px;
+    width: 100%;
+}
+
+.submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.second {
+    border: solid white;
+    border-width: 0px 2px;
+}
+
+.copyright {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
